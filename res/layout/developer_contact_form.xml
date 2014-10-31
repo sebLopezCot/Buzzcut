@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		
+		<TextView
+			android:text="Talk to Developer"
+			android:textSize="28dp"
+			android:paddingLeft="10dp"
+			android:paddingTop="10dp"
+			android:paddingBottom="5dp"/>
+			
+		<TextView
+			android:text="Full Name"
+			android:paddingLeft="12dp"
+			android:paddingTop="5dp"/>
+			
+		<EditText
+			android:id="@+id/fullNameFormText"
+			android:layout_width="wrap_content"
+			android:layout_height="40dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="20dp"/>
+	
+		<TextView
+			android:text="Email"
+			android:paddingLeft="12dp"
+			android:paddingTop="5dp"/>
+			
+		<EditText
+			android:id="@+id/emailFormText"
+			android:layout_width="wrap_content"
+			android:layout_height="40dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="20dp"/>
+			
+		<TextView
+			android:text="Message"
+			android:paddingLeft="12dp"
+			android:paddingTop="10dp"
+			android:layout_marginTop="5dp"/>
+			
+		<EditText
+			android:id="@+id/messageFormText"
+			android:layout_width="wrap_content"
+			android:gravity="top"
+			android:layout_height="225dp"
+			android:layout_marginLeft="8dp"
+			android:layout_marginRight="20dp"/>
+	
+	</TableLayout>
+  
+</ScrollView>

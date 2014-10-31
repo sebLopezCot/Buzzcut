@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.buzzcut.apppack"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="4" />
+    
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application android:icon="@drawable/icon" 
+    			android:theme="@android:style/Theme.Light" 
+    			android:label="@string/app_name">
+    	
+        <activity android:name=".StartActivity"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".SettingsActivity"
+                  android:theme="@android:style/Theme.Black"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.buzzcut.apppack.SETTINGSACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".AboutProduct"
+        		  android:theme="@android:style/Theme.Black"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.buzzcut.apppack.ABOUTPRODUCT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".ContactDeveloper"
+        		  android:theme="@android:style/Theme.Black"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="com.buzzcut.apppack.CONTACTDEVELOPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>

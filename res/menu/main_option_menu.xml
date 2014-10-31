@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <item
+  	android:id="@+id/soundItem"
+  	android:title="Mute"
+  	/>
+  	
+  <item
+  	android:id="@+id/vibrateItem"
+  	android:title="Disable Vibrations"
+  	/>
+  	
+  <item
+  	android:id="@+id/quitItem"
+  	android:title="Quit"
+  	/>
+  	
+  <item
+  	android:id="@+id/settingsItem"
+  	android:title="Settings"
+  	/>
+  
+</menu>
